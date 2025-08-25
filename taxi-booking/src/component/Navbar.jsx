@@ -1,20 +1,18 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-function Navbar() {
+export default function Navbar() {
   return (
     <header className="navbar">
-      <h1 className="logo">Book_A_Taxi 🚖</h1>
+      <div className="logo">Book_A_Taxi 🚖</div>
       <nav>
         <ul className="nav-links">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/services">Services</Link></li>
-          <li><Link to="/about">About Us</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-          <li><Link to ="/booking"> Book Ride</Link></li>
+          <li><NavLink to="/" end>Home</NavLink></li>
+          <li><NavLink to="/services">Services</NavLink></li>
+          <li><NavLink to="/about">About Us</NavLink></li>
+          <li><NavLink to="/contact">Contact</NavLink></li>
+          <li><NavLink to="/booking" className="cta-link">Book Ride</NavLink></li>
         </ul>
       </nav>
     </header>
   );
 }
-
-export default Navbar;

@@ -1,15 +1,12 @@
-function About() {
-    return (
-      <section className="about">
-        <h2>About Us</h2>
-        <p>
-          Book_A_Taxi is committed to making travel hassle-free. With trusted 
-          drivers, clean cars, and transparent pricing, we’ve been serving 
-          thousands of happy customers since 2025.
-        </p>
-      </section>
-    );
-  }
-  
-  export default About;
-  
+export default function About() {
+  return (
+    <section className="section">
+      <h2>About Us</h2>
+      <p>
+        Book_A_Taxi is built with one mission: make every ride stress-free.
+        From quick city hops to airport runs and outstation journeys,
+        we focus on safety, punctuality, and fair pricing.
+      </p>
+    </section>
+  );
+}
