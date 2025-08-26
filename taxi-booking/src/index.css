@@ -28,7 +28,7 @@ body {
   top: 0;
   z-index: 10;
   background: #ffcc00;
-  color: #000;
+  color: #5c98d8;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,8 +45,8 @@ body {
   font-weight: 600;
 }
 .nav-links a.active { background: #000; color: #fff; }
-.cta-link { background: #000; color: #fff; }
-.cta-link.active { background: #222; }
+.cta-link { color: #ac2323; }
+.cta-link.active { background: #7a9cc2; }
 
 /* Footer */
 .footer {
@@ -127,9 +127,9 @@ input[aria-invalid="true"], textarea[aria-invalid="true"] {
 .btn:hover { background: #222; }
 .btn-outline {
   display: inline-block;
-  border: 2px solid #000;
+  border: 2px solid #860c0c;
   background: transparent;
-  color: #000;
+  color: #db1818;
   padding: 0.7rem 1rem;
   border-radius: 10px;
   text-decoration: none;

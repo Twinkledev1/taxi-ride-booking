@@ -12,6 +12,7 @@ export default function Home() {
           <h1>Your Ride, Just a Click Away!</h1>
           <p>Reliable, affordable, and safe taxis available anytime.</p>
           <button className="btn" onClick={goToBooking}>Book Now</button>
+        
         </div>
         <div className="hero-img">
           <img src="/taxi-hero.png" alt="Taxi illustration" />
